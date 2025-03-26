@@ -1,4 +1,4 @@
-package juna;
+package juna.package1;
 
 import java.util.Scanner;
 
