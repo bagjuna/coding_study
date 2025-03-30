@@ -29,7 +29,7 @@ public class q2_0 {
             }
             return;
         }
-
+        
         if ((N % 5) == 0) {
             System.out.println(N / 5);
             return;
