@@ -23,10 +23,10 @@ public class q2_13 {
         cards.remove(first);
         level = first;
         for (int i = 0; i < N-1; i++) {
-            Integer max = cards.stream().max(Comparator.naturalOrder()).orElse(0);
-            cards.remove(max);
+            Integer temp = cards.get(0);
+            cards.remove(temp);
             gold += level;
-            gold += max;
+            gold += temp;
         }
 
         System.out.println(gold);

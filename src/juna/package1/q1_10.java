@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 /**
  * 13458번 시험 감독 성공
  */
-public class q0_10 {
+public class q1_10 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());

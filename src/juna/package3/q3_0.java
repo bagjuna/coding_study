@@ -19,12 +19,12 @@ public class q3_0 {
             list.add(new Room(sc.nextInt(), sc.nextInt()));
         }
 
-        Collections.sort(list,
-                (o1, o2) -> {
-                    if (o1.start == o2.start) {
-                        return o1.end - o2.end;
-                    } else return o1.start - o2.start;
-                });
+        Collections.sort(list, (o1, o2) -> {
+            if (o1.start == o2.start) {
+                return o1.end - o2.end;
+            } else
+                return o1.start - o2.start;
+        });
         queue.add(list.get(0).end);
         for (int i = 1; i < N; i++) {
             //강의실 끝나는 시간 ≤ 현 강의 시작 시간일 때
@@ -40,7 +40,7 @@ public class q3_0 {
     // 방의 객체
     static class Room {
         int start;   // 시작 시간
-        int end;    // 끝나는 시간
+        int end;     // 끝나는 시간
 
         public Room(int start, int end) {
             this.start = start;
