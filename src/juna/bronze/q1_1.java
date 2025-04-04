@@ -1,4 +1,4 @@
-package juna.package1;
+package juna.bronze;
 
 public class q1_1 {
 }

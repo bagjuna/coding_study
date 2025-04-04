@@ -1,4 +1,4 @@
-package juna.package3;
+package juna.gold;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ import java.util.*;
  * 강의실 배정하기 (백준 11000)
  */
 
-public class q3_0 {
+public class q3_1 {
 
     static List<Room> list = new ArrayList<>();
     static Queue<Integer> queue = new LinkedList<>();

@@ -1,4 +1,4 @@
-package juna.package2;
+package juna.bsilver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
