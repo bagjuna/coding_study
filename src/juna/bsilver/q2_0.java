@@ -1,4 +1,4 @@
-package juna.package2;
+package juna.bsilver;
 
 // 5원과 2원으로 거스름돈 준다
 // cnt = 0;

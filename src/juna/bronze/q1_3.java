@@ -1,8 +1,8 @@
-package juna.package1;
+package juna.bronze;
 
 import java.util.Scanner;
 
-public class q0_3 {
+public class q1_3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,7 +21,8 @@ public class q0_3 {
                 work += B;
             } else { // 피로도를 초과하면 쉰다
                 tired -= C;
-                if (tired < 0) tired = 0;
+                if (tired < 0)
+                    tired = 0;
             }
         }
 
