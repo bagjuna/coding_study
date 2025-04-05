@@ -21,6 +21,7 @@ public class q3_6 {
             System.out.println(0);
             return;
         }
+
         List<Integer> list = new ArrayList<>();
         List<Integer> list2 = new ArrayList<>();
         StringTokenizer st = new StringTokenizer(br.readLine());
