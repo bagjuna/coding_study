@@ -21,17 +21,18 @@ public class q2_23 {
             list.add(Integer.valueOf(br.readLine()));
         }
 
-        list.sort(Comparator.reverseOrder());
+        list.sort(Comparator.naturalOrder());
+
         while (list.size() > 2) {
-            int num1 = list.remove(0);
-            int num2 = list.remove(0);
-            list.remove(0);
+            int num1 = list.remove(list.size()-1);
+            int num2 = list.remove(list.size()-1);
+            list.remove(list.size()-1);
             cnt += num1;
             cnt += num2;
         }
 
         while (list.size() > 0) {
-            cnt += list.remove(0);
+            cnt += list.remove(list.size()-1);
         }
 
         System.out.println(cnt);
