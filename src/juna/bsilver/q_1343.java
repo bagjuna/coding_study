@@ -9,6 +9,7 @@ import java.util.List;
 public class q_1343 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         // 입력 예: "XX.XX" 혹은 "XXXX....XXX.....XX" 등
         String board = br.readLine();
         int N = board.length();
@@ -65,5 +66,6 @@ public class q_1343 {
 
         // 최종 결과 출력
         System.out.println(result);
+
     }
 }

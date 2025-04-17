@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
+
         int x = 10;
         int y = 5;
         boolean flag = true;
@@ -18,6 +19,7 @@ public class test {
 
         arr[j++] = j;
         System.out.println(arr[0]);
+
 
     }
 }
