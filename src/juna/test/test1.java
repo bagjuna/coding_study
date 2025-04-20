@@ -1,41 +1,21 @@
 package juna.test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class test1 {
 
     public static void main(String[] args) {
-        List<Jewel> list = new ArrayList<>();
-        list.add(new Jewel(1, 20000));
-        list.add(new Jewel(2, 20000));
-        list.add(new Jewel(3, 20000));
-        list.add(new Jewel(3, 30000));
-        list.add(new Jewel(1, 30000));
-        list.sort((x1, x2) -> {
-            if (x1.price == x2.price) {
-                return x2.weight - x1.weight;
-            } else {
-                return x2.price - x1.price;
-            }
-        });
+        ArrayList<String> list = new ArrayList<>();
+        list.add("AAA");
+        list.add("YYY");
+        list.add("BBB");
+        list.add("ZZZ");
+        list.add("CCC");
 
-        for (Jewel jewel : list) {
-            System.out.println(jewel);
-        }
-    }
-    static class Jewel {
-        int weight;
-        int price;
-
-        public Jewel(int weight, int price) {
-            this.weight = weight;
-            this.price = price;
-        }
-
-        @Override
-        public String toString() {
-            return weight + ", " + price;
-        }
+        Collections.sort(list);
+        int[] a = new int[5];
+        System.out.println(a.length);
+        System.out.println(true);
+        System.out.println(list.size());
     }
 }
