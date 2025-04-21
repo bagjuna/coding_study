@@ -66,6 +66,5 @@ public class q_1343 {
 
         // 최종 결과 출력
         System.out.println(result);
-
     }
 }
